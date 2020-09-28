@@ -1,0 +1,67 @@
+.xui-calender-item {
+  position: relative;
+  width: calc(100% / 7);
+  display: inline-flex;
+  height: 117px;
+  padding: 6px;
+  color: #5d8555;
+  font-size: 14px;
+  box-sizing: border-box;
+  border-top: 1px solid #e3e7e2;
+  border-right: 1px solid #e3e7e2;
+}
+.xui-calender-item .more {
+  position: absolute;
+  right: 7px;
+  bottom: 7px;
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  color: #abc270;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+.xui-calender-item:nth-child(7n) {
+  border-right: none;
+}
+.xui-calender-item.prev-month,
+.xui-calender-item.next-month {
+  color: #d9dcde;
+}
+.xui-calender-item .xui-calender-number {
+  position: absolute;
+  left: 18px;
+  bottom: 8px;
+}
+.xui-calender-item .xui-calender-number.isGray {
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #bcc1ca;
+  line-height: 20px;
+}
+
+.xui-calender-container {
+  min-height: 600px;
+  border: 1px solid #e3e7e2;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0px 4px 16px rgba(171, 201, 214, 0.15);
+}
+.xui-calender-head {
+  display: flex;
+}
+.xui-calender-head .xui-head-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 60px;
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #3c5559;
+  text-align: center;
+}
+.xui-calender-body {
+  font-size: 0;
+}
+

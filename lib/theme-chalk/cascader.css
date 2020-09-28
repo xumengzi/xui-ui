@@ -1,0 +1,72 @@
+.xui_cascader {
+  position: relative;
+  width: 200px;
+}
+.xui_cascader .xui_input_cas {
+  margin: 0;
+}
+.xui_cascader ul {
+  flex: 1;
+  vertical-align: top;
+  height: 204px;
+  overflow: auto;
+  border-right: 1px solid #e4e7ed;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 6px 0;
+  min-width: 160px;
+}
+.xui_cascader ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  padding: 8px 20px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #606266;
+  height: 34px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+}
+.xui_cascader ul li:nth-child(2n) {
+  background: #f8f8f8;
+}
+.xui_cascader ul li.selected {
+  color: #4eb900;
+}
+.xui_cascader ul li:hover {
+  background: #b1ebc9;
+}
+.xui_cascader .xui_cascader_icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAACVBMVEUAAABwcHBwcHAxZ8TIAAAAA3RSTlMAEKBmYnVnAAAAI0lEQVQI12NAByogQhJEsDkACcYJIGYKmABzYRKScMUCyNoBdbADAWhhpY4AAAAASUVORK5CYII=) no-repeat center center;
+  background-size: initial;
+  cursor: pointer;
+  z-index: 99999;
+}
+.xui_cascader_box {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  box-shadow: 1px 1px 10px #ccc;
+}
+.xui_cascader_top {
+  top: -210px;
+}
+

@@ -1,0 +1,26 @@
+{
+  "name": "xui-ui",
+  "version": "1.0.0",
+  "description": "1. 简介: 一个基于vuejs2.0,可以提供丰富的方法,组件,插件的组件库.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack mode=development --config webpack.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.1",
+    "mini-css-extract-plugin": "^0.11.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "style-loader": "^1.2.1",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
